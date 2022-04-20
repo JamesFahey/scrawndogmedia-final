@@ -12497,3 +12497,65 @@ header.masthead .h1 {
 .social-links li a i:hover {
     background: #9CAF88;
 }
+
+.crew {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #351c44;
+}
+
+.meet-the-team {
+    position: relative;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: #fff;
+}
+
+.meet-the-team .team-card {
+    position: relative;
+    background: #351c44;
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+}
+
+.meet-the-team .team-card .imgBx {
+    max-width: 150px;
+    flex: 0 0 150px;
+}
+
+.meet-the-team .team-card .imgBx img {
+    max-width: 150px;
+}
+
+.meet-the-team .team-card .content {
+    margin-left: 20px;
+}
+
+.team-title {
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .meet-the-team .team-card {
+        flex-direction: column;
+    }
+
+    .meet-the-team .team-card .imgBx {
+        max-width: 100%;
+    }
+
+    .meet-the-team .team-card .imgBx img {
+        max-width: 100%;
+    }
+
+    .meet-the-team .team-card .content {
+        margin-left: 0px;
+    }
+}
